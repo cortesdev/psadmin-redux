@@ -3,9 +3,9 @@ import React, {PropTypes} from 'react';
 class CoursesPage extends React.Component {
     render() {
         return (
-            <nav>
+            <div>
                 <h1>Courses</h1>
-            </nav>
+            </div>
         );
     }
 }
