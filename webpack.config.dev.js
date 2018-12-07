@@ -3,6 +3,7 @@ import path from 'path';
 
 export default {
   debug: true,
+  // devtool: 'inline-source-map',
   devtool: 'cheap-module-eval-source-map',
   noInfo: false,
   entry: [
@@ -17,7 +18,8 @@ export default {
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'src')
+    contentBase: path.resolve(__dirname, 'src'),
+    hot: true
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

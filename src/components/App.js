@@ -1,19 +1,18 @@
 import React, {PropTypes} from 'react';
-
-
+import Header from './common/Header';
+ 
 class App extends React.Component {
     render() {
         return (
             <div className="container-fluid">
-                <h1>Pluralsight Adm</h1>
-                <p>This application uses React, Redux, React Router and a variety of ther libraries</p>
-                <Link to="about" className="btn btn-primary btn-lg">Learn More</Link>
+                <Header/>
+                {this.props.children}
             </div>
         );
     }
 }
-
-App.PropTypes = {
+ 
+App.propTypes = {
     children: PropTypes.object.isRequired
 };
 
