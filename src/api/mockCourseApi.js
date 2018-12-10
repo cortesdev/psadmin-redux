@@ -43,6 +43,14 @@ const courses = [
     authorId: "cory-house",
     length: "5:10",
     category: "HTML5"
+  },
+  {
+    id: "react-native",
+    title: "React Web Component",
+    watchHref: "http://www.pluralsight.com/courses/web-components-shadow-dom",
+    authorId: "cortes-dev",
+    length: "5:10",
+    category: "HTML5"
   }
 ];
 
