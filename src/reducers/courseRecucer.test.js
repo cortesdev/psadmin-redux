@@ -26,7 +26,7 @@ import * as actions from '../actions/courseActions';
 // });
 
 describe('Course Reducer', () => {
-    it('should add course when passed CREATE_COURSE_SUCCESS', () => {
+    it('should add course when passed CREATE_COURSES_SUCCESS', () => {
       // arrange
       const initialState = [
         {title: 'A'},
